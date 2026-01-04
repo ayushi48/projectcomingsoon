@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force AliceCarousel to fill full height */
+.alice-carousel,
+.alice-carousel__wrapper,
+.alice-carousel__stage,
+.alice-carousel__stage-item {
+  height: 100%;
+}
+
